@@ -10,18 +10,6 @@
 #include <sys/stat.h>
 #include <opencv2/opencv.hpp> //OpenCV関連ヘッダ
 
-// シリアルポート用
-#define DEV_NAME "/dev/cu.usbserial-5156D11BAC" // ※←ここは資料の「M5Stickが接続されたシリアルポートの確認方法」を参考にして各自変更する
-#define BAUD_RATE B115200                       // 通信速度
-#define BUFF_SIZE 4096
-
-#define ITEMNUM 50
-#define ITEMTYPENUM 5
-#define AUDIENCENUM 600
-#define PERSONTYPENUM 13
-#define SCRTYPENUM 11
-#define NMBRTYPENUM 3
-
 // 関数名の宣言　　　（voidは数値を出さずCGの場合映像を出す）
 void display0();
 void display1();
